@@ -1,0 +1,111 @@
+body {
+  background: #181a1b;
+  color: #eaeaea;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+  background: #131314;
+  border-bottom: 2px solid #222;
+}
+
+.rgb {
+  background: linear-gradient(90deg, #ff003c, #00ff99, #00b6ff, #ff003c 100%);
+  background-size: 200% 200%;
+ 
+  -webkit-text-fill-color: transparent;
+  animation: rgb-text 3s linear infinite;
+}
+
+@keyframes rgb-text {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.subtitle {
+  color: #aaa;
+  margin: 0 0 10px 0;
+}
+
+nav a {
+  color: #00b6ff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #ff003c;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 56px;
+}
+
+h2 {
+  color: #00ff99;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.card {
+  background: #23272a;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.18);
+  padding: 24px 20px;
+  width: 260px;
+  text-align: left;
+  transition: transform 0.2s, border 0.2s;
+  border: 2px solid transparent;
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  border: 2px solid #00b6ff;
+}
+
+.card h3 {
+  color: #ff003c;
+  margin-top: 0;
+}
+.card a {
+  color: #00ff99;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 24px 0;
+  color: #888;
+  background: #131314;
+  margin-top: 40px;
+  font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  .card-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+    max-width: 340px;
+  }
+}
