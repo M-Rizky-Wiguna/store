@@ -1,13 +1,13 @@
 body{
     background-color: darkred;
 }
-.box{
+.box2{
     display: flex;
     margin-top: 15px;
     gap: 15px;
 }
 
-.container{
+.container2{
     width: 16rem;
     height: 360px;
     border-radius: 15px;
