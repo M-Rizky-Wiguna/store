@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    font-family: 'MedievalSharp',cursive;
+}
+.container{
+    background-color: rgb(128, 0, 0);
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 200PX;
+    margin-right: 200px;
+}
+.box{
+    font-size: xx-large;
+}
