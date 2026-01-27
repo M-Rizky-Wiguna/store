@@ -123,7 +123,9 @@ a{
     object-fit: cover;       
     display: block;
 }
-
+.tengah{
+    text-align: center;
+}
 
 
          
