@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>sw
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="listbarang"></div>
+    <script> 
+    const data = [
+    {barang: "sepatu", harga: 10000},
+    {barang: "tas", harga: 50000},
+    {barang: "buku", harga: 1000},
+]
+        data.forEach(item => {
+            document.write(`<h1>${item.barang}<h1>`);
+            document.write(`<h2>${item.harga}<h2>`);
+        })
+    </script>
+</body>
+</html>
