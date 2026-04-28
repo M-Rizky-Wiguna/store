@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <p id="nama" class="text"></p>
+    <p id="jurusan" class="text"></p>
+    <p id="kelas" class="text"></p>
+    <script>
+        let nama = document.getElementById("nama");
+        let jurusan = document.getElementById("jurusan");
+        let kelas = document.getElementById("kelas");
+        document.getElementById("body").style.backgroundColor = "black";
+        document.getElementById("nama").style.color = "red";
+        document.getElementById("jurusan").style.color = "green";
+        document.getElementById("kelas").style.color = "blue";
+        document.getElementById("nama").style.fontSize = "50px";
+
+        nama.innerHTML = "Nama :M Rizky Wiguna";
+        jurusan.innerHTML = "Jurusan : PERKEMBANGAN PERANGKAT LUNAK DAN GIM";
+        kelas.innerHTML = "Kelas : 10 RPL 2";
+        
+    </script>
+</body>
+</html>
