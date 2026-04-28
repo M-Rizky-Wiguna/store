@@ -4,31 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-
 </head>
 <body>
     <script>
-    const daftarProduk = [
-    {
-        id: 1,
-        nama: "laptop",
-        harga: 20000,
-    },
-    {
-        id: 2,
-        nama: "mobil",
-        harga: 2000000,
-    }
+         let data = [
+    {barang: "sepatu", harga: 10000},
+    {barang: "tas", harga: 50000},
+    {barang: "buku", harga: 1000},
 ];
-let produk = daftarProduk.map((item) =>{
+let produk = data.map((item) =>{
     return `
-    <h2>${item.id}</h2>
-    <h1>${item.nama}</h1>
+    <h1>${item.barang}</h1>
     <p>${item.harga}</p>
     `
 });
 document.write(produk.join(""))
-</script>
+    </script>
 </body>
 </html>
