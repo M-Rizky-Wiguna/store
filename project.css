@@ -1,0 +1,17 @@
+body{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+
+}
+.box{
+    background-color: blue;
+    padding: 50px;
+    border-radius: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 45px;
+    
+}

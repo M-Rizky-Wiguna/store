@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Spectral:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    font-family: 'Spectral', serif;
+    background-image: url('https://images.unsplash.com/photo-1509030475728-9f54a0c6469f?auto=format&fit=crop&w=1500&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.posisi1{
+    background-color: blueviolet;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.posisi2{
+    background-color: darkorange;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left:400px;
+    margin-right:400px;
+}
+.posisi3{
+    background-color: darkgreen;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 400px;
+    margin-right: 400px;
+}
